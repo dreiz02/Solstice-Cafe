@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="productPage.css">
+    <script src="https://kit.fontawesome.com/9ca3265412.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- add font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- body css  -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solstice Beverage</title>
+</head>
+
+<body>
+
+    <div class="gridContainer">
+        <!-- horizontal menu (desktop) -->
+        <div class="mainMenu">
+            <div class="main content">
+                <div class="main left">
+                    <div class="main logoimage"><img src="Video/logo.png" alt="solstice-logo"></div>
+                    <div class="main solsticecafe">
+                        <a class="title" href="mainPage.html">Solstice</a>
+                        <p>Café</p>
+                    </div>
+                    <div class="main item1">
+                        <a class="links" href="#main-beverages">Beverages</a>
+                    </div>
+                    <div class="main item2">
+                        <a class="links" href="#main-desserts">Dessert</a>
+                    </div>
+                    <div class="main item3">
+                        <a class="links" href="#main-diner">Diner</a>
+                    </div>
+                </div>
+
+
+                <div class="main right">
+                    <div class="main user">
+                        <i class="material-icons" style="font-size: 32px;">person_outline</i>
+                    </div>
+                    <div class="main heart">
+                        <i class="fa fa-heart-o"></i>
+                    </div>
+                    <div class="main cart">
+                        <i class="fa fa-shopping-cart"></i>
+                    </div>
+                </div>
+
+                <!-- Mobile items -->
+                <div class="hamMenu icon" id="hamMenuicon">
+                    <i class="material-icons" style="font-size:36px">menu</i>
+                </div>
+
+                <div class="hamMenu links" id="hamMenulinks">
+                    <i class="material-icons" style="font-size:36px" id="hamMenuicon2">close</i>
+                    <h3>Beverage</h3>
+                    <h3>Dessert</h3>
+                    <h3>Diner</h3>
+
+                    <h3 class="user">My Account</h3>
+                    <h3 class="user">My Cart</h3>
+                    <h3 class="user">Favorite Items</h3>
+
+                    <div class="hamMenu social">
+                        <h3>Facebook</h3>
+                        <h3>Instagram</h3>
+                        <h3>Twitter</h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- vertical menu  -->
+
+        <!-- Mobile items -->
+        <div class="mobver showButton" id="mobvershowButton">
+            <h4>Scroll Me Up</h4>
+        </div>
+        <!-- Mobile  items end -->
+
+        <div class="verticalMenu" id="verticalMenu">
+            <i class="material-icons" style="font-size:36px" id="mobvercloseButton">close</i>
+            <div class="ver menuBar">
+                <div class="ver logo">
+                    <img class="ver logoimage" src="Video/logo.png" alt="solstice-logo">
+                    <h2 class="ver solstice">Solstice</h2>
+                    <p class="ver cafe">Café</p>
+                </div>
+
+                <div class="ver intro">
+                    <p> Enjoy our friendly atmosphere with delicious artisanal coffees, fresh pastries, and gourmet
+                        sandwiches. <br>
+
+                        <br>Your perfect place to relax and savor every moment!
+                    </p>
+                </div>
+
+                <a class="ver aboutus" href="aboutUs.html">About us</a>
+
+                <div class="ver line"></div>
+
+                <div class="ver information">
+
+                    <h3>Location</h3>
+                    <div class="ver location">
+                        <div class="location icon"><i class="material-icons">location_on</i></div>
+                        <div class="location text">
+                            <p>3593 Main St, Vancouver, BC V5V 3N4, Canada</p>
+                        </div>
+                    </div>
+
+                    <h3>Contact information</h3>
+                    <div class="ver phone">
+                        <div class="phone icon"><i class='fas fa-phone'></i></div>
+                        <div class="phone text">
+                            <p>+1 236 234 2409</p>
+                        </div>
+                    </div>
+                    <div class="ver email">
+                        <div class="email icon"><i class="material-icons">email</i></div>
+                        <div class="email text">
+                            <p>support@solstice.com</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="ver showButton">
+                <button id="arrowButton" class="arrow-button">
+                    <i class="material-icons" style="font-size:36px">keyboard_arrow_right</i>
+                </button>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+        <script src="mainPage.js"></script>
+
+        <!-- content -->
+
+        <div class="content">
+            <div class="content body">
+
+                <div>
+                    <div class="content highlights">
+                        <div class="content text">
+                            <h1>OUR MENU</h1>
+                            <p class="content highlight-description">Welcome to Solstice, where every product is crafted to illuminate your most cherished moments. Our exclusive collection combines timeless elegance with modern design, bringing warmth, light, and joy to every celebration. Explore our range and find the perfect pieces to make your gatherings unforgettable and your spaces radiant.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="main-beverages" class="content beverage">
+                    <div class="content beverage-info">
+                        <h1 class="content product-title">Beverages</h1>
+                        <p>Explore our delectable drink options, including classic choises, </p>
+                    </div>
+
+                    <div class="content product-wrapper">
+                        <div class="content numProducts">
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image" src="beverages/10032021_CafeMocha_LS-min.webp" alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Beverage</p>
+                                            <p class="product-name">Mocha</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="beverages/vecteezy_coffee-drink-in-a-mug-on-transparent-background_46456186.png"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Beverage</p>
+                                            <p class="product-name">White Mocha</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="beverages/vecteezy_coffee-drink-isolated-on-clear-background-cutout_46456365.png"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Beverage</p>
+                                            <p class="product-name">Caramel Macchiato</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="beverages/vecteezy_iced-coffee-watercolor-set_11048027.PNG" alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Beverage</p>
+                                            <p class="product-name">Vanilla Latte</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="beverages/coffee-latte-cup-hot-beverage-with-cream-isolated-transparent-background-view-generative-ai_771335-59177.jpg"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Beverage</p>
+                                            <p class="product-name">Mocha Frappuccino</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="beverages/white-realistic-coffee-cup-with-smoke-isolated-transparent-background_939033-7878-removebg-preview.png"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Beverage</p>
+                                            <p class="product-name">Espresso Con Panna</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="beverages/iced-coffee-isolated-transparent-background-delicious-latte-drink-glass-cup-ice-cubes-black-straw-beans-cold-beverage-283546656-removebg-preview.png"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Beverage</p>
+                                            <p class="product-name">Chai Tea Latte</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="beverages/latte-art-white-coffee-drink-coffee-removebg-preview-removebg-preview.png"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Beverage</p>
+                                            <p class="product-name">Iced Americano</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="beverages/vecteezy_iced-coffee-watercolor-set_11048027.PNG" alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Beverage</p>
+                                            <p class="product-name">Matcha Green Tea Latte</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="beverages/iced-coffee-isolated-transparent-background-delicious-latte-drink-glass-cup-ice-cubes-black-straw-beans-cold-beverage-283546656-removebg-preview.png" alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Beverage</p>
+                                            <p class="product-name">Cappuccino</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="beverages/coffee-latte-cup-hot-beverage-with-cream-isolated-transparent-background-view-generative-ai_771335-59177.jpg" alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Beverage</p>
+                                            <p class="product-name">Flat White</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="subscription-display">
+                    <div class="sub-info">
+                        <div class="sub-info1">
+                            <p class="discount-title">Join in and get <b class="discount">25% OFF!</b></p>
+                            <p class="sub-info-heading">Subscribe to our newsletter and get 25% OFF discount code</p>
+                        </div>
+                        <div class="sub-info2">
+                            <form>
+                                <input class="info" type="email" name="clientEmail" placeholder="Email Adress">
+                                <input class="email-submit" type="submit" value="Subscribe">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DESSERTS -->
+                <div id="main-desserts" class="content desserts">
+                    <div class="content dessert-info">
+                        <h1 class="content product-title">Desserts</h1>
+                        <p>Explore our delectable drink options, including classic choises, </p>
+                    </div>
+
+
+                    <div class="content product-wrapper">
+                        <div class="content numProducts">
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="desserts/delicious-cherry-cake-isolated-transparent-background_625492-93171-removebg-preview.png"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Dessert</p>
+                                            <p class="product-name">Chocolate Chip Cookie</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="desserts/Dessert---Chocolate-Cake-with-Fresh-Strawberry-on-transparent-background-PNG-removebg-preview.png"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Dessert</p>
+                                            <p class="product-name">Blueberry Muffin</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image" src="desserts/Dessert-PNG-Isolated-Pic.png" alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Dessert</p>
+                                            <p class="product-name">Lemon Poppy Seed Scone</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="desserts/Homemade-sweet-cake-with-cream-fruit-isolated-on-transparent-background-PNG-removebg-preview.png"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Dessert</p>
+                                            <p class="product-name">Red Velvet Cupcake</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="desserts/pngtree-red-velvet-slice-cake-for-your-party-time-png-image_13372964.png"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Dessert</p>
+                                            <p class="product-name">Tiramisu</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="desserts/delicious-cherry-cake-isolated-transparent-background_625492-93171-removebg-preview.png" alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Dessert</p>
+                                            <p class="product-name">Raspberry Cheesecake</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="desserts/Dessert---Chocolate-Cake-with-Fresh-Strawberry-on-transparent-background-PNG-removebg-preview.png" alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Dessert</p>
+                                            <p class="product-name">Almond Croissant</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="desserts/Dessert-PNG-Isolated-Pic.png" alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Dessert</p>
+                                            <p class="product-name">Carrot Cake</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="desserts/delicious-cherry-cake-isolated-transparent-background_625492-93171-removebg-preview.png" alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Dessert</p>
+                                            <p class="product-name">Chocolate Brownie</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="desserts/Dessert-PNG-Isolated-Pic.png" alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Dessert</p>
+                                            <p class="product-name">Vanilla Bean Panna Cotta</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <div class="product1">
+                                    <img class="product-image"
+                                        src="desserts/Dessert---Chocolate-Cake-with-Fresh-Strawberry-on-transparent-background-PNG-removebg-preview.png" alt="">
+                                </div>
+                                <div>
+                                    <div class="product-description">
+                                        <div class="product-info">
+                                            <p class="subheading">Dessert</p>
+                                            <p class="product-name">Apple Pie</p>
+                                            <p class="product-price">$7.80</p>
+                                        </div>
+                                        <div class="product-buttons">
+                                            <button class="add-button">Add to cart</button>
+                                            <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                            <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="highlight-container">
+                    <div class="highlight">
+                        <div class="highlight-info">
+                            <h1 class="check">Check out our <br> Seasonal Beverages</h1>
+                            <button class="product-button-explore">Explore our products</button>
+                        </div>
+                        <div>
+                            <img class="highlight-image" src="beverages/Sparkling-Drinks-3-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DINER -->
+                <div id="main-diner" class="content diner">
+                    <div class="content diner-info">
+                        <h1 class="content product-title">Diner</h1>
+                        <p>Explore our delectable drink options, including classic choises, </p>
+                    </div>
+                    <div>
+                        <div class="content product-wrapper">
+                            <div class="content numProducts">
+                                <div class="products">
+                                    <div class="product1">
+                                        <img class="product-image"
+                                            src="diner/107-1072438_ice-cream-waffle-png-transparent-png-removebg-preview.png"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <div class="product-description">
+                                            <div class="product-info">
+                                                <p class="subheading">Diner</p>
+                                                <p class="product-name">Classic Pancakes</p>
+                                                <p class="product-price">$7.80</p>
+                                            </div>
+                                            <div class="product-buttons">
+                                                <button class="add-button">Add to cart</button>
+                                                <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                                <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="product1">
+                                        <img class="product-image"
+                                            src="diner/34374925-belgian-waffles-with-whipped-cream-and-chocolate-sauce-isolated-on-white-background-removebg-preview.png"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <div class="product-description">
+                                            <div class="product-info">
+                                                <p class="subheading">Diner</p>
+                                                <p class="product-name">Eggs Benedict</p>
+                                                <p class="product-price">$7.80</p>
+                                            </div>
+                                            <div class="product-buttons">
+                                                <button class="add-button">Add to cart</button>
+                                                <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                                <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="product1">
+                                        <img class="product-image"
+                                            src="diner/34690414-belgian-waffles-with-whipped-cream-strawberries-and-caramel-sauce-isolated-on-white-background-removebg-preview.png"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <div class="product-description">
+                                            <div class="product-info">
+                                                <p class="subheading">Diner</p>
+                                                <p class="product-name">French Toast</p>
+                                                <p class="product-price">$7.80</p>
+                                            </div>
+                                            <div class="product-buttons">
+                                                <button class="add-button">Add to cart</button>
+                                                <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                                <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="product1">
+                                        <img class="product-image"
+                                            src="diner/34690415-belgian-waffles-with-whipped-cream-chocolate-sauce-and-sprinkles-isolated-on-white-background-removebg-preview.png"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <div class="product-description">
+                                            <div class="product-info">
+                                                <p class="subheading">Diner</p>
+                                                <p class="product-name">Avocado Toast</p>
+                                                <p class="product-price">$7.80</p>
+                                            </div>
+                                            <div class="product-buttons">
+                                                <button class="add-button">Add to cart</button>
+                                                <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                                <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="product1">
+                                        <img class="product-image"
+                                            src="diner/702-7027760_waffles-png-transparent-png-removebg-preview.png"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <div class="product-description">
+                                            <div class="product-info">
+                                                <p class="subheading">Diner</p>
+                                                <p class="product-name">Breakfast Burrito</p>
+                                                <p class="product-price">$7.80</p>
+                                            </div>
+                                            <div class="product-buttons">
+                                                <button class="add-button">Add to cart</button>
+                                                <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                                <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="product1">
+                                        <img class="product-image"
+                                            src="diner/belgian-waffles-photo-removebg-preview.png" alt="">
+                                    </div>
+                                    <div>
+                                        <div class="product-description">
+                                            <div class="product-info">
+                                                <p class="subheading">Diner</p>
+                                                <p class="product-name">Belgian Waffles</p>
+                                                <p class="product-price">$7.80</p>
+                                            </div>
+                                            <div class="product-buttons">
+                                                <button class="add-button">Add to cart</button>
+                                                <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                                <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="product1">
+                                        <img class="product-image"
+                                            src="diner/107-1072438_ice-cream-waffle-png-transparent-png-removebg-preview.png"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <div class="product-description">
+                                            <div class="product-info">
+                                                <p class="subheading">Diner</p>
+                                                <p class="product-name">Veggie Omelette</p>
+                                                <p class="product-price">$7.80</p>
+                                            </div>
+                                            <div class="product-buttons">
+                                                <button class="add-button">Add to cart</button>
+                                                <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                                <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="product1">
+                                        <img class="product-image"
+                                            src="diner/belgian-waffles-photo-removebg-preview.png"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <div class="product-description">
+                                            <div class="product-info">
+                                                <p class="subheading">Diner</p>
+                                                <p class="product-name">Chicken and Waffles</p>
+                                                <p class="product-price">$7.80</p>
+                                            </div>
+                                            <div class="product-buttons">
+                                                <button class="add-button">Add to cart</button>
+                                                <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                                <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="product1">
+                                        <img class="product-image"
+                                            src="diner/34690414-belgian-waffles-with-whipped-cream-strawberries-and-caramel-sauce-isolated-on-white-background-removebg-preview.png"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <div class="product-description">
+                                            <div class="product-info">
+                                                <p class="subheading">Diner</p>
+                                                <p class="product-name">Biscuits and Gravy</p>
+                                                <p class="product-price">$7.80</p>
+                                            </div>
+                                            <div class="product-buttons">
+                                                <button class="add-button">Add to cart</button>
+                                                <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                                <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="product1">
+                                        <img class="product-image"
+                                            src="diner/107-1072438_ice-cream-waffle-png-transparent-png-removebg-preview.png"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <div class="product-description">
+                                            <div class="product-info">
+                                                <p class="subheading">Diner</p>
+                                                <p class="product-name">Huevos Rancheros</p>
+                                                <p class="product-price">$7.80</p>
+                                            </div>
+                                            <div class="product-buttons">
+                                                <button class="add-button">Add to cart</button>
+                                                <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                                <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="products">
+                                    <div class="product1">
+                                        <img class="product-image"
+                                            src="diner/belgian-waffles-photo-removebg-preview.png"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <div class="product-description">
+                                            <div class="product-info">
+                                                <p class="subheading">Diner</p>
+                                                <p class="product-name">Quiche Lorraine</p>
+                                                <p class="product-price">$7.80</p>
+                                            </div>
+                                            <div class="product-buttons">
+                                                <button class="add-button">Add to cart</button>
+                                                <i class="fa fa-heart-o icon-default" style="font-size:24px"></i>
+                                                <!-- <i class="fa fa-heart icon-clicked" style="font-size:24px"></i> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                <form action="" method="get">
+                    <div class="registration">
+                        <div class="registration-right">
+                            <div class="right-side-reg">
+                                <h2>SUBSCRIBE AND STAY UPDATED</h2>
+                                <p>Join our email newsletter for exclusive offers, events, and new releases.</p>
+                                <input class="info-buttons1" type="subscribe-email" id="subscribe-email" name="clientEmailSubscription" placeholder="EMAIL ADRESS"> 
+                                <input class="submit2" type="submit"> <br>
+                                <br>
+                                <h3>Follow Us!</h2>
+                                <div class="social-media-icons emails">
+                                    <i class='fab fa-facebook' style='font-size:36px'></i>
+                                    <i class='fab fa-instagram' style='font-size:36px'></i>
+                                    <i class='fab fa-twitter' style='font-size:36px'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="footer content">
+                <div class="footer leftpart">
+                    <div class="footer logo">
+                        <div class="footer logoimage"><img src="Video/logo.png" alt="solstice-logo"></div>
+                        <div class="footer solsticecafe">
+                            <h2>Solstice</h2>
+                            <p>Café</p>
+                        </div>
+                    </div>
+
+                    <div class="footer description">
+                        <p>
+                            Nestled in the vibrant heart of Vancouver, Solstice Cafe is your go-to destination for an
+                            unparalleled coffee experience. We pride ourselves on serving premium artisanal coffee,
+                            meticulously crafted to perfection. Our freshly baked pastries are made in-house daily,
+                            ensuring every bite is a delightful treat.
+                            <br><br>Step into our cozy, inviting atmosphere where the rich aroma of coffee blends with
+                            the warmth of our friendly staff. At Solstice Cafe, every visit feels like coming home.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer rightpart">
+                    <div class="footer about-Solstice">
+                        <h2>About Solstice</h2>
+                        <ul>
+                            <li>Our story</li>
+                            <li>Careers</li>
+                            <li>Gift cards</li>
+                            <li>Contact us</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer contact-us">
+                        <h2>Contact Us</h2>
+                        <ul>
+                            <li>Guest relation: relation@solstice.com</li>
+                            <li>Media Inquiries: media@solstice.com</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer follow-us">
+                        <h2>Follow Us</h2>
+                        <div class="follow-us icon">
+                            <i class='fab fa-facebook' style='font-size:36px'></i>
+                            <i class='fab fa-instagram' style='font-size:36px'></i>
+                            <i class='fab fa-twitter' style='font-size:36px'></i>
+                        </div>
+
+                        <div class="follow-us social">
+                            <h3>Facebook</h3>
+                            <h3>Instagram</h3>
+                            <h3>Twitter</h3>
+                        </div>
+
+                    </div>
+
+                    <div class="footer subscribe-us">
+                        <h2>We like you just the way you are</h2>
+                        <p>Get the latest resources, news, and more</p>
+                        <form action="">
+                            <label for="email"></label>
+                            <input type="text" id="email">
+                        </form> <br>
+                        <button type="submit">Subsribe Now</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
